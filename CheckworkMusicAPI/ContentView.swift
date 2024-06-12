@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var musicDataStore: MusicDataStore
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Spacer(minLength: 16)
+            SearchBar(musicDataStore: musicDataStore)
+            MusicListView(musicDataStore: musicDataStore)
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(musicDataStore: MusicDataStore(musics: []))
 }

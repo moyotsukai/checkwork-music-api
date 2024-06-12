@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct CheckworkMusicAPIApp: App {
+    
+    @StateObject var musicDataStore = MusicDataStore(musics: [])
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(musicDataStore: musicDataStore)
         }
     }
 }

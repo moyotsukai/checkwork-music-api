@@ -8,10 +8,8 @@
 import Foundation
 
 class MusicRepository {
-    
-    static let shared = MusicRepository()
-    
-    func requestMusic(keyword: String) async -> MusicResponse? {
+        
+    static func requestMusic(keyword: String) async -> MusicResponse? {
         let urlString = "https://itunes.apple.com/search?term=\(keyword)&entity=song&country=JP&lang=ja_jp&limit=20"
         guard let encodedUrlString = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return nil }
         guard let url = URL(string: encodedUrlString) else { return nil }

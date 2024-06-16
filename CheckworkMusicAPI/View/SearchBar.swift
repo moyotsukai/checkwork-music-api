@@ -14,7 +14,7 @@ struct SearchBar: View {
     
     func onSubmitSearchText() {
         Task {
-            guard let musicResponse = await MusicRepository.shared.requestMusic(keyword: searchKeyword) else { return }
+            guard let musicResponse = await MusicRepository.requestMusic(keyword: searchKeyword) else { return }
             musicDataStore.setMusics(musics: musicResponse.results)
         }
     }

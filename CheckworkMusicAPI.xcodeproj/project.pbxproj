@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB3DB33D2C1E737F00A484FB /* checkwork_02.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3DB33C2C1E737F00A484FB /* checkwork_02.png */; };
+		EB3DB3412C1E73DF00A484FB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EB3DB3402C1E73DF00A484FB /* README.md */; };
 		EBA710F52C196B65008B136E /* CheckworkMusicAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA710F42C196B65008B136E /* CheckworkMusicAPIApp.swift */; };
 		EBA710F72C196B65008B136E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA710F62C196B65008B136E /* ContentView.swift */; };
 		EBA710F92C196B66008B136E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA710F82C196B66008B136E /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB3DB33C2C1E737F00A484FB /* checkwork_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkwork_02.png; sourceTree = "<group>"; };
+		EB3DB3402C1E73DF00A484FB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EBA710F12C196B65008B136E /* CheckworkMusicAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckworkMusicAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA710F42C196B65008B136E /* CheckworkMusicAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckworkMusicAPIApp.swift; sourceTree = "<group>"; };
 		EBA710F62C196B65008B136E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		EBA710E82C196B65008B136E = {
 			isa = PBXGroup;
 			children = (
+				EB3DB3402C1E73DF00A484FB /* README.md */,
+				EB3DB33C2C1E737F00A484FB /* checkwork_02.png */,
 				EBA710F32C196B65008B136E /* CheckworkMusicAPI */,
 				EBA710F22C196B65008B136E /* Products */,
 			);
@@ -182,6 +188,8 @@
 			files = (
 				EBA710FC2C196B66008B136E /* Preview Assets.xcassets in Resources */,
 				EBA710F92C196B66008B136E /* Assets.xcassets in Resources */,
+				EB3DB3412C1E73DF00A484FB /* README.md in Resources */,
+				EB3DB33D2C1E737F00A484FB /* checkwork_02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
